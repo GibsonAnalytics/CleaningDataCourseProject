@@ -14,6 +14,18 @@ Version 1.0
 
 As referenced above the experiments were carried out as bar of  Smartlab – Non Linear Complex Systems Laboratory.  The experiments was done on a group of volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
+The following files are required to create the tidy data set.  Places all text documents into your local working directory.
+      X_test.txt
+      X_train.txt
+      y_test.txt
+      y_train.txt
+      features.txt
+      subject_test.txt
+      subject_train.txt
+      run_analysis.R
+The file to ouputed containing the tidy data set is called CourseProject.txt see how to read below.      
+      
+
 The data collected was run through the run_analysis R script to create a tidy data file called CourseProject.txt, see access instructions below.   The run_analysis accesses multiple files from the previous study and concatenates and combines data.   The script also filters data features that were not part of the mean and standard deviation calculation.  Below is a sample of the R code that did that filtering:
 
       # Determine what columns have std or mean in title c will contain cols index of 
