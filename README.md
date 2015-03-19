@@ -1,12 +1,11 @@
 # CleaningDataCourseProject
-Course project for creating tidy data
 ==================================================================
 Coursera Getting and Cleaning Data
 Course Project
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 ==================================================================
-GibsonAnalytics 
+GibsonAnalytics: Course Project for creating tidy data
 Senior Research Data Analysts.
 https://github.com/GibsonAnalytics/
 Reference: Human Activity Recognition Using Smartphones Dataset
