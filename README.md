@@ -23,7 +23,7 @@ The following files are required to create the tidy data set.  Places all text d
       subject_test.txt
       subject_train.txt
       run_analysis.R
-The file to ouputed containing the tidy data set is called CourseProject.txt see how to read below.
+The file outputted containing the tidy data set is called CourseProject.txt see how to read below.
 
       
 The data collected was run through the run_analysis R script to create a tidy data file called CourseProject.txt, see access instructions below.   The run_analysis accesses multiple files from the previous study and concatenates and combines data.   The script also filters data features that were not part of the mean and standard deviation calculation.  Below is a sample of the R code that did that filtering:
