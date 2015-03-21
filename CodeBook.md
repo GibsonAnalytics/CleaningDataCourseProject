@@ -18,9 +18,13 @@
 
      
 
+**Study Design**
+
+ 
+
 The summerized data below is the mean of all the data collected by a subject
 doing a particular activity.  Two sensoring signals were measured using an
-accelerometer and gyroscope
+accelerometer and gyroscope.
 
 These signals were used to estimate variables of the feature vector for each
 pattern:
@@ -33,6 +37,12 @@ rate of 50Hz.
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying
 noise filters and then sampled in fixed-width sliding windows of 2.56 sec and
 50% overlap (128 readings/window).
+
+ 
+
+**Code Book**
+
+ 
 
 All units are radians per second.
 
