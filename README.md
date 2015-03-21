@@ -1,9 +1,9 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 =======================================================
 
-# \*\*CleaningDataCourseProject\*\*
+**CleaningDataCourseProject**
 
-=================
+=========================================================
 
 Coursera Getting and Cleaning Data Course Project Human Activity Recognition
 Using Smartphones Dataset Version 1.0
@@ -27,28 +27,28 @@ smartphone (Samsung Galaxy S II) on the waist.
 The following files are required to create the tidy data set. Places all text
 documents into your local working directory.
 
-- X\_test.txt
+- X_test.txt
 
-- X\_train.txt
+- X_train.txt
 
-- y\_test.txt
+- y_test.txt
 
-- y\_train.txt
+- y_train.txt
 
 - features.txt
 
-- subject\_test.txt
+- subject_test.txt
 
-- subject\_train.txt
+- subject_train.txt
 
-- run\_analysis.R
+- run_analysis.R
 
 The file outputted containing the tidy data set is called CourseProject.txt see
 how to read below.
 
-The data collected was run through the run\_analysis R script to create a tidy
+The data collected was run through the run_analysis R script to create a tidy
 data file called CourseProject.txt, see access instructions below. The
-run\_analysis accesses multiple files from the previous study and concatenates
+run_analysis accesses multiple files from the previous study and concatenates
 and combines data. The script also filters data features that were not part of
 the mean and standard deviation calculation. Below is a sample of the R code
 that did that filtering:
