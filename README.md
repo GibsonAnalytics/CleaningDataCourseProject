@@ -1,20 +1,20 @@
 =======================================================
 
 CleaningDataCourseProject
-========================================================Coursera Getting and
-Cleaning Data Course Project Human Activity Recognition Using Smartphones
-Dataset Version 1.0
-========================================================GibsonAnalytics: Course
-Project for creating tidy data Senior Research Data Analysts.
-https://github.com/GibsonAnalytics/ Reference: Human Activity Recognition Using
-Smartphones Dataset Version 1.0
+
+Coursera Getting and Cleaning Data Course Project Human Activity Recognition
+Using Smartphones Dataset Version 1.0
+
+GibsonAnalytics: Course Project for creating tidy data Senior Research Data
+Analysts. https://github.com/GibsonAnalytics/ Reference: Human Activity
+Recognition Using Smartphones Dataset Version 1.0
 ==================================================================
 
-As referenced above the experiments were carried out as bar of Smartlab – Non
-Linear Complex Systems Laboratory. The experiments was done on a group of
-volunteers within an age bracket of 19-48 years. Each person performed six
-activities (WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING,
-LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
+Experiments were carried out as bar of Smartlab – Non Linear Complex Systems
+Laboratory. The experiments was done on a group of volunteers within an age
+bracket of 19-48 years. Each person performed six activities (WALKING,
+WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a
+smartphone (Samsung Galaxy S II) on the waist.
 
 The following files are required to create the tidy data set. Places all text
 documents into your local working directory.
