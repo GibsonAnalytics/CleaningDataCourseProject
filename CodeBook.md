@@ -1,23 +1,3 @@
-- SubjectID
-
-    1 - 30  Participants in the study
-
-    
-
-- ActivityName
-
-    Laying
-
-    Sitting
-
-    Standing
-
-    Walking
-
-    Walking DownStairs
-
-     
-
 **Study Design**
 
  
@@ -48,7 +28,25 @@ noise filters and then sampled in fixed-width sliding windows of 2.56 sec and
 
 **Code Book**
 
- 
+- SubjectID
+
+    1 - 30  Participants in the study
+
+    
+
+- ActivityName
+
+    Laying
+
+    Sitting
+
+    Standing
+
+    Walking
+
+    Walking DownStairs
+
+     
 
 Two sensoring signals were measured using an accelerometer and gyroscope.
 Features are normalized and bounded within [-1,1].
