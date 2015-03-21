@@ -22,9 +22,13 @@
 
  
 
-The summerized data below is the mean of all the data collected by a subject
-doing a particular activity.  Two sensoring signals were measured using an
-accelerometer and gyroscope.
+The summerized data below is the average of all the data collected by a subject
+doing a particular activity.  One row for each participant doing one activity.
+There were 30 participants doing 6 activities therefore 180 rows.  The
+additional 79 columns beyond subject and activity are the average measurements
+calculated during the study.
+
+ 
 
 These signals were used to estimate variables of the feature vector for each
 pattern:
@@ -33,6 +37,8 @@ pattern:
 
 Captured 3-axial linear acceleration and 3-axial angular velocity at a constant
 rate of 50Hz.
+
+ 
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying
 noise filters and then sampled in fixed-width sliding windows of 2.56 sec and
@@ -43,6 +49,9 @@ noise filters and then sampled in fixed-width sliding windows of 2.56 sec and
 **Code Book**
 
  
+
+Two sensoring signals were measured using an accelerometer and gyroscope.
+Features are normalized and bounded within [-1,1].
 
 All units are radians per second.
 
