@@ -6,20 +6,21 @@
 run_analysis <- function (){
       testData <- NULL;
       # Read Test Data
+      path = getwd()
       print("Read test data")
-      testData <- read.table("./X_test.txt")
+      testData <- read.table(file=file.path(path,"./X_test.txt"))
       # Read Training Data
-      trainingData <- read.table("./X_train.txt")
+      trainingData <- read.table(file=file.path(path,"./X_train.txt"))
       #Combine testData and trainData into one Data Frame
       combineData <- rbind.fill(testData,trainingData)
       
       
       print("read y_test data")
       # Read the test Activity ID 1:6 (Walking, Walking_Upstairs, Walking Downstairs, Sitting, Standing, Laying)
-      testActivity <- read.table("./y_test.txt")
+      testActivity <- read.table(file=file.path(path,"./y_test.txt"))
       # Add new column to identify the trial participant was in.
       print("y_train")
-      trainActivity <- read.table("./y_train.txt")
+      trainActivity <- read.table(file=file.path(path,"./y_train.txt"))
       print("CombineActivity")
       #Combine test data with training Activity data
       combineActivity <- rbind.fill(testActivity,trainActivity)
@@ -34,7 +35,7 @@ run_analysis <- function (){
      
       print("Read features")
       # Get measurements by reading using space as a dilmiter
-      measurements <- read.csv2("./features.txt",sep =" ", header=FALSE)
+      measurements <- read.csv2(file=file.path(path,"./features.txt"),sep=" ",header=FALSE)
       # Assign Column names to vector
       v <- measurements$V2
       # Assign new column names to combined test data
@@ -43,7 +44,7 @@ run_analysis <- function (){
       
       
       # Read subject test person  for both test and training individuals
-      subTest <- read.table("./subject_test.txt")
+      subTest <- read.table(file=file.path(path,"./subject_test.txt"))
       # Add new column to identify what trial particpants were in
       ####subTest$newcolumn<-"TEST"
       # Add new Column names
@@ -51,7 +52,7 @@ run_analysis <- function (){
       ####setnames(subTest,old="newcolumn",new="Trial")
       # Read in training participants
       print("Read subject_train")
-      subTrain <- read.table("./subject_train.txt")
+      subTrain <- read.table(file=file.path(path,"./subject_train.txt"))
       ###subTrain$newcolum<-"TRAIN"
       # Change Column names to match Test
       setnames(subTrain, old="V1",new="SubjectID")
@@ -92,5 +93,5 @@ run_analysis <- function (){
       # Create new tidy data set with the average of each variable for each activity and each subject
       finalTidy <- group_by(finalData, SubjectID, ActivityName) %>% summarise_each(funs(mean))
       print("Write Course Project")
-      write.table(finalTidy, file= "./CourseProject.txt", row.names=FALSE)
+      write.table(finalTidy, file=file.path(path,"./CourseProject.txt"), row.names=FALSE)
 }
