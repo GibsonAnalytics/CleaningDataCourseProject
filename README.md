@@ -1,14 +1,21 @@
 =======================================================
 
-\# H1 CleaningDataCourseProject
+CleaningDataCourseProject
 
-\#\# H2 Coursera Getting and Cleaning Data Course Project Human Activity
+=================
+
+Coursera Getting and Cleaning Data Course Project Human Activity Recognition
+Using Smartphones Dataset Version 1.0
+
+\-------------------------------------------------------------------------------------------------
+
+GibsonAnalytics: Course Project for creating tidy data Senior Research Data
+Analysts. https://github.com/GibsonAnalytics/ Reference: Human Activity
 Recognition Using Smartphones Dataset Version 1.0
 
-\#\# H2 GibsonAnalytics: Course Project for creating tidy data Senior Research
-Data Analysts. https://github.com/GibsonAnalytics/ Reference: Human Activity
-Recognition Using Smartphones Dataset Version 1.0
-==================================================================
+\--------------------------------------------------------------------------------------------------
+
+ 
 
 Experiments were carried out as bar of Smartlab – Non Linear Complex Systems
 Laboratory. The experiments was done on a group of volunteers within an age
