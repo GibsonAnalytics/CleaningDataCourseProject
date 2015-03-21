@@ -1,6 +1,6 @@
 =======================================================
 
-\# CleaningDataCourseProject
+\# \*\*CleaningDataCourseProject\*\*
 
 =================
 
@@ -26,21 +26,21 @@ smartphone (Samsung Galaxy S II) on the waist.
 The following files are required to create the tidy data set. Places all text
 documents into your local working directory.
 
-X\_test.txt
+\- X\_test.txt
 
-X\_train.txt
+\- X\_train.txt
 
-y\_test.txt
+\- y\_test.txt
 
-y\_train.txt
+\- y\_train.txt
 
-features.txt
+\- features.txt
 
-subject\_test.txt
+\- subject\_test.txt
 
-subject\_train.txt
+\- subject\_train.txt
 
-run\_analysis.R
+\- run\_analysis.R
 
 The file outputted containing the tidy data set is called CourseProject.txt see
 how to read below.
