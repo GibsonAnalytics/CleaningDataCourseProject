@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 =================================================================
 leaningDataCourseProject
-=======
-# CleaningDataCourseProject
->>>>>>> 97fd3c3505fc220317babf4c4f93fa8be7cb97ee
 ==================================================================
 Coursera Getting and Cleaning Data
 Course Project
@@ -39,7 +35,7 @@ The data collected was run through the run_analysis R script to create a tidy da
       b<-grep ("std",colnames(combineData),ignore.case=F)
       c <- c(a,b)
       c <- sort(c)
-#
+      
 If std or mean appeared in the column title is was included in the tidy data summary.  If the volunteer was part of the test or training there measurements were included in the final summary.  The column names from the original data were transcribed to be more verbose then the original abbreviated form.  The summarized data was grouped by subjected and activity the volunteer was doing when measured, then the mean of each measurement of that grouping was calculated. 
 
 
@@ -52,9 +48,9 @@ In order to view tidy data in R, execute the following lines of code:
     setwd("<Enter In Your Local Working Directory here>”) 
     read.table("CourseProject.txt", header=TRUE)
     View(data)
-<<<<<<< HEAD
-=======
+
+===================================================================================
 
 
 
->>>>>>> 97fd3c3505fc220317babf4c4f93fa8be7cb97ee
+
