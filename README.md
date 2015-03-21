@@ -16,14 +16,15 @@ Version 1.0
 As referenced above the experiments were carried out as bar of  Smartlab – Non Linear Complex Systems Laboratory.  The experiments was done on a group of volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
 
-The following files are required to create the tidy data set.  Places all text documents into your local working directory.X_test.txt
-X_train.txt
-y_test.txt
-y_train.txt
-features.txt
-subject_test.txt
-subject_train.txt
-run_analysis.R
+The following files are required to create the tidy data set.  Places all text documents into your local working directory.
+- X_test.txt
+- X_train.txt
+- y_test.txt
+- y_train.txt
+- features.txt
+- subject_test.txt
+- subject_train.txt
+- run_analysis.R
 
 The file outputted containing the tidy data set is called CourseProject.txt see how to read below.
 
